@@ -1,0 +1,30 @@
+// Buttons
+
+.button {
+	display: block;
+	color: black !important;
+	padding: 0.75em;
+	text-decoration: none;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	width: auto;
+	text-align: center;
+	font-weight:700;
+	max-width:10em;
+	margin: 0 auto;
+	border: 0.22em solid black;
+	background-color: white;
+	border-radius: 2px;
+
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active{
+}
+
+.button a:visited{
+}
+

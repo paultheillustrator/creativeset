@@ -1,0 +1,19 @@
+// Grids
+
+.grid-wrap {
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 1em;
+    z-index:100;
+} 
+
+.grid-col {
+    float:left;
+    text-align: left;
+    width: 100%;
+}   
+
+.prose-block{
+	max-width: 28em;
+	margin:0 auto;
+}
