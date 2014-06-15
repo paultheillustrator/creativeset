@@ -2,15 +2,27 @@
         <!-- Meta nav -->
         <div class="nav-wrap">
                 <nav class="nav--meta">
+                    <span class="site-logo">
+                        <img src="../img/svg/creativeset-logo.svg">
+                    </span>
                     <ul>
-                        <li><%= link_to 'Meta 1', '#' %></li>
-                        <li><%= link_to 'Pldsaasces', '#' %></li>
-                        <li class="post-job-button"><a href="#">Post job</a></li>
+                        <li><%= link_to 'About', '#' %></li>
+                        <li><%= link_to 'Pricing', '#' %></li>
+                        <li><%= link_to 'Email updates', '#' %></li>
+                        <li><%= link_to 'Login', '#' %></li>
+                        <li class="language-switcher"><%= link_to 'EN', '#' %></li>
                     </ul>
-                </nav><!-- End meta navigation -->
+                </nav><!-- End meta navigation -->    
 
             <!-- Main nav -->
                 <nav class="nav--main">
+                    <!-- Serach box -->
+                   <span class="nav--search">
+                        <input type="text" type="text" value="Search" name="Type" id="Type"
+                            onblur="if (this.value == '') {this.value = 'Search';}"
+                            onfocus="if (this.value == 'Search') {this.value = '';}"
+                            maxlength="21">
+                    </span>
                     <ul>
                         <li><%= link_to 'Industries', '#' %></li>
                         <li><%= link_to 'Places', '#' %></li>
