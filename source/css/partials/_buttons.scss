@@ -30,13 +30,14 @@
 
 .post-job-button a{
 	background-color: rgba(0,0,0,0.1);
-	border:3px solid white;
+	border:3px solid $brand-primary-color-5;
 	display: block;
 	padding:0.5em 1em 0.5em 1em;
 }
 
 .post-job-button a:hover{
-	background-color: white;
+	background-color: $brand-primary-color-5;
 	opacity: 1!important;
+	color: black;
 }
 

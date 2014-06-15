@@ -2,9 +2,6 @@
         <!-- Meta nav -->
         <div class="nav-wrap">
                 <nav class="nav--meta">
-                    <span class="site-logo">
-                        <img src="../img/svg/creativeset-logo.svg">
-                    </span>
                     <ul>
                         <li><%= link_to 'About', '#' %></li>
                         <li><%= link_to 'Pricing', '#' %></li>
@@ -18,6 +15,9 @@
                 <nav class="nav--main">
                     <!-- Serach box -->
                    <span class="nav--search">
+                        <span class="site-logo">
+                            <img src="../img/svg/creativeset-logo-invert.svg">
+                        </span>
                         <input type="text" type="text" value="Search" name="Type" id="Type"
                             onblur="if (this.value == '') {this.value = 'Search';}"
                             onfocus="if (this.value == 'Search') {this.value = '';}"

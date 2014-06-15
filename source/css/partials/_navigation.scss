@@ -12,14 +12,15 @@ nav{
 
 /* Meta nav */
 .nav--meta {
-	background-color: $brand-primary-color-3;
+	/*background-color: $brand-primary-color-3;*/
+	background-color: rgba(0,0,0,0.2);
 	margin-bottom: 0;
 	font-size: 0.5em;
 	padding-right: 2em;
 }
 
 .nav--meta a {
-	color: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.5);
 }
 
 .nav--meta ul{
@@ -36,7 +37,7 @@ nav{
 /* Main nav*/
 
 .nav--main {
-	background-color: $brand-primary-color-5;
+	/*background-color: $brand-primary-color-5;*/
 	margin-bottom: 0;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -46,7 +47,7 @@ nav{
 
 .nav--main a{
 	font-family: $base-font-family-bold;
-	color: black;
+	color: white;
 }
 
 .nav--main ul{
@@ -62,12 +63,12 @@ nav{
 
 /*Logo*/
 .site-logo{
-	position: absolute;
-	left:1em;
+
 }
 .site-logo img{
 	opacity: 0.7;
-	width: 7em;
+	width: 8em;
+	margin-right: 1em;
 }
 
 /* Search */
