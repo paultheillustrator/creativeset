@@ -1,0 +1,42 @@
+// Navigation
+
+.nav-wrap{
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+nav{
+
+}
+
+/* Meta nav */
+.nav--meta {
+	background-color: $brand-primary-color-3;
+	margin-bottom: 0;
+}
+
+.nav--meta ul{
+	list-style: none;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.nav--meta li{
+	display: inline-block;
+}
+
+/* Main nav*/
+
+.nav--main {
+	background-color: white;
+}
+
+.nav--main ul{
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.nav--main li{
+	display: inline-block;
+}
