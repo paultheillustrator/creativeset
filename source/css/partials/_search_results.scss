@@ -1,0 +1,24 @@
+// Search results
+
+.results-wrap a:last-child li:last-child{
+		border-bottom: none;
+}
+
+.results-wrap{
+	padding: 0;
+    list-style-type: none;
+}
+
+.results-wrap li{
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0.5em 0em 1.5em 0em;
+}
+
+.results-wrap h4 {
+	margin-bottom: 0em;
+}
+
+
+.results-wrap li:hover {
+	background-color: #FAFAFA;
+}

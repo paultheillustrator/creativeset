@@ -32,7 +32,10 @@ html, body{
 
 // Headings
 h1,h2,h3,h4{
-	font-family: $base-font-family-light;
+	font-family: $base-font-family-extra-bold;
+	color: black;
+	letter-spacing: -0.05em;
+	line-height: 1em;
 }
 .master-headline{
 	font-size: 3.3em;
@@ -44,4 +47,5 @@ h1,h2,h3,h4{
 .micro-copy{
 	font-size: $base-font-size-micro;
 	line-height: 1.4em;
+	color: $brand-grey-lightest;
 }

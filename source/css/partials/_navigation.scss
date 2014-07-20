@@ -5,6 +5,15 @@
 	position: absolute;
 	z-index: 2;
 	text-align: right;
+	background-color: black;
+}
+
+.nav-wrap--inside{
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	text-align: right;
+	background-color: black;
 }
 
 nav{
@@ -13,7 +22,7 @@ nav{
 /* Meta nav */
 .nav--meta {
 	/*background-color: $brand-primary-color-3;*/
-	background-color: rgba(0,0,0,0.2);
+	background-color: $brand-grey-dark;
 	margin-bottom: 0;
 	font-size: 0.5em;
 	padding-right: 2em;

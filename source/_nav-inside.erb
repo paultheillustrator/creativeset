@@ -1,0 +1,32 @@
+        <!-- NAVIGATION -->
+        <!-- Meta nav -->
+        <div class="nav-wrap--inside">
+                <nav class="nav--meta">
+                    <ul>
+                        <li><%= link_to 'About', '#' %></li>
+                        <li><%= link_to 'Pricing', '#' %></li>
+                        <li><%= link_to 'Email updates', '#' %></li>
+                        <li><%= link_to 'Login', '#' %></li>
+                        <li class="language-switcher"><%= link_to 'EN', '#' %></li>
+                    </ul>
+                </nav><!-- End meta navigation -->    
+
+            <!-- Main nav -->
+                <nav class="nav--main">
+                    <!-- Serach box -->
+                   <span class="nav--search">
+                        <span class="site-logo">
+                            <img src="../img/svg/creativeset-logo-invert.svg">
+                        </span>
+                        <input type="text" type="text" value="Search" name="Type" id="Type"
+                            onblur="if (this.value == '') {this.value = 'Search';}"
+                            onfocus="if (this.value == 'Search') {this.value = '';}"
+                            maxlength="21">
+                    </span>
+                    <ul>
+                        <li><%= link_to 'Industries', '#' %></li>
+                        <li><%= link_to 'Places', '#' %></li>
+                        <li class="post-job-button"><a href="#">Post job</a></li>
+                    </ul>
+                </nav><!-- End main navgation -->
+        </div><!-- End navigation -->

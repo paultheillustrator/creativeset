@@ -10,6 +10,7 @@
 @import "partials/hero";
 @import "partials/links";
 @import "partials/navigation";
+@import "partials/search_results";
 @import "partials/typography";
 
 // Core Page setup
@@ -19,7 +20,7 @@ html, body{
 }
 
 body{
-	background-color: #EFEFEF;
+	/*background-color: #EFEFEF;*/
 }
 
 @media screen and (min-width: 769px){
