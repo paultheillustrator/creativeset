@@ -1,7 +1,7 @@
 // Forms
 
 
-// Modifiers
+/*------- Standard form stuff -------*/
 
 input {
     -webkit-appearance: none;
@@ -21,12 +21,6 @@ input{
     border-radius: 2px;
 } 
 
-.textbox--giant { 
-    padding: 0.5em 0.5em;
-    font-size: 175%; 
-    min-width: 10em;
-    color: #555;
-} 
 input:hover { 
      background-color: #555;
 } 
@@ -37,6 +31,53 @@ input:focus {
 input:active { 
     background-color: $brand-grey-dark;
 }
+
+select {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+select{ 
+    font-family: $base-font-family-regular;
+    background-image: url("../img/svg/arrow-down.svg");
+    background-size: 12px auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: $brand-grey-light;
+    color: rgba(0,0,0,0.3); 
+    font-size: $base-font-size;
+    border: solid 0px #646464; 
+    outline: none; 
+    padding: 1em;
+     -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    width:100%;
+    margin-bottom: 1em;
+     -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+} 
+
+select:hover { 
+     background-color: $brand-grey-medium-light;
+     cursor: pointer;
+} 
+select:focus { 
+} 
+select:active { 
+}
+
+/*------- Modifiers -------*/
+
+.textbox--giant { 
+    padding: 0.5em 0.5em;
+    font-size: 175%; 
+    min-width: 10em;
+    color: #555;
+} 
 
 @media screen and (max-width:600px){
 .textbox { 
