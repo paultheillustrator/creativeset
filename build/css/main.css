@@ -1,0 +1,697 @@
+/* line 2, /Users/paulwoods/Sites/creativeset/source/css/partials/_arrows.scss */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black; }
+
+/* line 11, /Users/paulwoods/Sites/creativeset/source/css/partials/_arrows.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00; }
+
+/* line 20, /Users/paulwoods/Sites/creativeset/source/css/partials/_arrows.scss */
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green; }
+
+/* line 29, /Users/paulwoods/Sites/creativeset/source/css/partials/_arrows.scss */
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid blue; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_buttons.scss */
+.button {
+  display: block;
+  color: black !important;
+  padding: 0.75em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: auto;
+  text-align: center;
+  font-weight: 700;
+  max-width: 10em;
+  margin: 0 auto;
+  border: 0.22em solid black;
+  background-color: white;
+  border-radius: 2px; }
+
+/* line 21, /Users/paulwoods/Sites/creativeset/source/css/partials/_buttons.scss */
+.button:hover {
+  text-decoration: none; }
+
+/* line 31, /Users/paulwoods/Sites/creativeset/source/css/partials/_buttons.scss */
+.post-job-button a {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 3px solid #74edd4;
+  display: block;
+  padding: 0.5em 1em 0.5em 1em; }
+
+/* line 38, /Users/paulwoods/Sites/creativeset/source/css/partials/_buttons.scss */
+.post-job-button a:hover {
+  background-color: #74edd4;
+  opacity: 1 !important;
+  color: black; }
+
+/* line 2, /Users/paulwoods/Sites/creativeset/source/css/partials/_cards.scss */
+.card {
+  background-color: white;
+  color: #131313; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.grid-wrap {
+  overflow: hidden;
+  clear: both;
+  padding-bottom: 1em;
+  z-index: 100; }
+
+/* line 10, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.grid-col {
+  float: left;
+  text-align: left;
+  width: 100%; }
+
+/* line 16, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.prose-block {
+  max-width: 28em;
+  margin: 0 auto;
+  padding-bottom: 3em; }
+
+/* line 22, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.no-gutter {
+  padding-left: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  /*margin-bottom: -10px!important;*/ }
+
+/* line 29, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.tiny-gutter {
+  padding-left: 1px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+/*.tiny-gutter:last-child {
+    border-right:none;
+}*/
+/* line 41, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.grid-wrap {
+  overflow: hidden;
+  clear: both;
+  padding-bottom: 3em;
+  z-index: 100; }
+
+/* line 48, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.grid-col {
+  float: left;
+  text-align: left;
+  width: 100%; }
+
+@media screen and (min-width: 1200px) {
+  /* line 55, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-wrap {
+    margin-left: -1em;
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 3em;
+    z-index: 100; }
+
+  /* line 63, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-col {
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+    /* gutter */
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 1em; } }
+/* line 75, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.grid-col img {
+  width: 100%;
+  border: none; }
+
+/* line 80, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.one-up--full {
+  width: 100%; }
+
+/* line 84, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.one-up {
+  width: 75%; }
+
+/* line 88, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.prose {
+  max-width: 36em; }
+
+/* line 92, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.two-up {
+  width: 50%; }
+
+/* line 96, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.three-up {
+  width: 33.33333%; }
+
+/* line 100, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.four-up {
+  width: 25%; }
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  /* line 106, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-wrap {
+    margin-left: -1em;
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 2em; }
+
+  /* line 113, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-col {
+    float: left;
+    padding-left: 1em;
+    /* this is your gutter between columns */
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+  /* line 121, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-col img {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  /* line 127, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-wrap {
+    margin-left: -0.5em;
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 1.75em; }
+
+  /* line 133, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-col img {
+    width: 100%; }
+
+  /* line 136, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .grid-col {
+    float: left;
+    padding-left: 0.5em;
+    /* this is your gutter between columns */
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+  /* line 144, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .four-up {
+    width: 50%; } }
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  /* line 151, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .four-up {
+    width: 50%; }
+
+  /* line 155, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .three-up {
+    width: 33.33333%; }
+
+  /* line 158, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .two-up {
+    width: 50%; } }
+@media screen and (max-width: 480px) {
+  /* line 164, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .two-up {
+    width: 100%; } }
+@media screen and (min-width: 481px) and (max-width: 499px) {
+  /* line 170, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .three-up {
+    width: 100%; } }
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  /* line 176, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .three-up {
+    width: 50%; } }
+/*-----*/
+/* line 183, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3em; }
+
+/* line 189, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.container--no_max {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 3em; }
+
+/* line 195, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+.container--no_max--full {
+  margin: 0 auto;
+  padding: 3em; }
+
+@media screen and (max-width: 499px) {
+  /* line 201, /Users/paulwoods/Sites/creativeset/source/css/partials/_grids.scss */
+  .container {
+    padding: 1em; } }
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_footer.scss */
+.footer_wrap {
+  /* min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -155px; the bottom margin is the negative value of the footer's height */ }
+
+/* line 10, /Users/paulwoods/Sites/creativeset/source/css/partials/_footer.scss */
+.footer {
+  font-size: 0.65em;
+  color: rgba(102, 102, 102, 0.6);
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.2em;
+  padding: 2em;
+  overflow: hidden;
+  max-width: 100%;
+  height: 155px;
+  /* .push must be the same height as .footer */ }
+
+/* line 21, /Users/paulwoods/Sites/creativeset/source/css/partials/_footer.scss */
+.footer--text-container {
+  max-width: 50em;
+  margin: 0 auto;
+  margin-top: 1em; }
+
+/*------- Standard form stuff -------*/
+/* line 7, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+/* line 12, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input {
+  font-family: "FS Albert Web Light", Verdana, sans-serif;
+  background-color: #e6e3df;
+  border: solid 0px #646464;
+  outline: none;
+  padding: 1em;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  color: #6d6b69; }
+
+/* line 25, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input:hover {
+  background-color: #dbd6cf; }
+
+/* line 28, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input:focus {
+  background-color: white;
+  color: black; }
+
+/* line 32, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input:active {
+  background-color: #6d6b69; }
+
+/* line 36, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+select {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+/* line 41, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+select {
+  font-family: "FS Albert Web Regular", Verdana, sans-serif;
+  background-image: url("../img/svg/arrow-down.svg");
+  background-size: 12px auto;
+  background-repeat: no-repeat;
+  background-position: 93%;
+  background-color: #e6e3df;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  border: solid 0px #646464;
+  outline: none;
+  padding: 1em;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -khtml-border-radius: 1px;
+  border-radius: 1px;
+  width: 100%;
+  margin-bottom: 1em;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: ''; }
+
+/* line 64, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+select:hover {
+  background-color: #dbd6cf;
+  cursor: pointer; }
+
+/*------- Modifiers -------*/
+/* line 75, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+.textbox--giant {
+  padding: 0.5em 0.5em;
+  font-size: 150%;
+  min-width: 16em;
+  color: #8589D5;
+  background-color: #4822db;
+  background-image: url("../img/svg/search.svg");
+  background-size: 45px auto;
+  background-repeat: no-repeat;
+  background-position: 97%;
+  margin-top: -3em; }
+
+@media screen and (max-width: 600px) {
+  /* line 89, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+  .textbox--giant {
+    min-width: 13em;
+    background-image: url("../img/svg/search.svg");
+    background-size: 30px auto;
+    background-repeat: no-repeat;
+    background-position: 98%; } }
+/* line 98, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+.textbox {
+  background-color: #29deb7; }
+
+/* line 102, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input:hover {
+  background-color: #3F23B0; }
+
+/* line 105, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input:focus {
+  background-color: white;
+  color: black; }
+
+/* line 109, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+input:active {
+  background-color: #301883; }
+
+@media screen and (max-width: 600px) {
+  /* line 115, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+  .textbox {
+    border: solid 0px #646464;
+    outline: none;
+    padding: 0.4em 0.4em;
+    font-size: 220%;
+    max-width: 100%;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    min-width: 77%; } }
+@media screen and (max-width: 600px) {
+  /* line 128, /Users/paulwoods/Sites/creativeset/source/css/partials/_forms.scss */
+  .textbox {
+    max-width: 70%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    min-width: 60%; } }
+/* line 5, /Users/paulwoods/Sites/creativeset/source/css/partials/_helpers.scss */
+.margin-bottom--minus {
+  margin-bottom: -3em !important; }
+
+/* line 10, /Users/paulwoods/Sites/creativeset/source/css/partials/_helpers.scss */
+.grey-light {
+  color: #e6e3df !important; }
+
+/* line 14, /Users/paulwoods/Sites/creativeset/source/css/partials/_helpers.scss */
+.brand-primary-color-1 {
+  color: #29deb7 !important; }
+
+/* line 18, /Users/paulwoods/Sites/creativeset/source/css/partials/_helpers.scss */
+.black {
+  color: black !important; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_hero.scss */
+#hero-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: white; }
+
+/* line 13, /Users/paulwoods/Sites/creativeset/source/css/partials/_hero.scss */
+.hero {
+  clear: both;
+  width: 100%;
+  /*background-color: #00c0ff;*/
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -1em; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_links.scss */
+a:link {
+  color: #4822db;
+  text-decoration: none;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  transition: .2s; }
+
+/* line 13, /Users/paulwoods/Sites/creativeset/source/css/partials/_links.scss */
+a:hover {
+  color: #4822db;
+  text-decoration: none;
+  opacity: 0.7; }
+
+/* line 19, /Users/paulwoods/Sites/creativeset/source/css/partials/_links.scss */
+a:visited {
+  color: #4822db; }
+
+/* line 23, /Users/paulwoods/Sites/creativeset/source/css/partials/_links.scss */
+a:active {
+  position: relative;
+  top: 1px; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav-wrap {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  text-align: right;
+  background-color: black; }
+
+/* line 11, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav-wrap--inside {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: right;
+  background-color: black; }
+
+/* Meta nav */
+/* line 23, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--meta {
+  /*background-color: $brand-primary-color-3;*/
+  background-color: #323232;
+  margin-bottom: 0;
+  font-size: 0.5em;
+  padding-right: 2em; }
+
+/* line 31, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--meta a {
+  color: rgba(255, 255, 255, 0.5); }
+
+/* line 35, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--meta ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+/* line 41, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--meta li {
+  display: inline-block;
+  margin-left: 1em; }
+
+/* Main nav*/
+/* line 48, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--main {
+  /*background-color: $brand-primary-color-5;*/
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  font-size: 0.65em; }
+
+/* line 57, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--main a {
+  font-family: "FS Albert Web Bold", Verdana, sans-serif;
+  color: white; }
+
+/* line 62, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--main ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+/* line 68, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--main li {
+  display: inline-block;
+  margin-left: 1em; }
+
+/*Logo*/
+/* line 77, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.site-logo img {
+  width: 7em;
+  margin-right: 1em;
+  margin-top: 1em; }
+
+/* Search */
+/* line 84, /Users/paulwoods/Sites/creativeset/source/css/partials/_navigation.scss */
+.nav--search {
+  position: absolute;
+  left: 1em; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_search_results.scss */
+.results-wrap a:last-child li:last-child {
+  border-bottom: none; }
+
+/* line 7, /Users/paulwoods/Sites/creativeset/source/css/partials/_search_results.scss */
+.results-wrap {
+  padding: 0;
+  list-style-type: none; }
+
+/* line 12, /Users/paulwoods/Sites/creativeset/source/css/partials/_search_results.scss */
+.results-wrap li {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.5em 0em 1.5em 0em; }
+
+/* line 17, /Users/paulwoods/Sites/creativeset/source/css/partials/_search_results.scss */
+.results-wrap h4 {
+  margin-bottom: 0em; }
+
+/* line 22, /Users/paulwoods/Sites/creativeset/source/css/partials/_search_results.scss */
+.results-wrap li:hover {
+  background-color: #efefef; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+#colour-swatch {
+  display: inline-block;
+  width: 100%;
+  height: 3em; }
+
+/* line 9, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-primary-color-1 {
+  background-color: #29deb7; }
+
+/* line 12, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-primary-color-2 {
+  background-color: #4822db; }
+
+/* line 15, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-primary-color-3 {
+  background-color: #33dcb7; }
+
+/* line 18, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-primary-color-4 {
+  background-color: #6fe2c9; }
+
+/* line 21, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-primary-color-5 {
+  background-color: #74edd4; }
+
+/* line 24, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-secondary-color-1 {
+  background-color: #2d62d9; }
+
+/* line 27, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-secondary-color-2 {
+  background-color: #fba624; }
+
+/* line 30, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-grey-darkest {
+  background-color: #131313; }
+
+/* line 33, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-grey-dark {
+  background-color: #323232; }
+
+/* line 36, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-grey-medium {
+  background-color: #6d6b69; }
+
+/* line 39, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-grey-medium-light {
+  background-color: #dbd6cf; }
+
+/* line 42, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-grey-light {
+  background-color: #e6e3df; }
+
+/* line 45, /Users/paulwoods/Sites/creativeset/source/css/partials/_styleguide.scss */
+.bg--brand-grey-lightest {
+  background-color: #9b9b9b; }
+
+/* line 3, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+html, body {
+  font-family: "FS Albert Web Regular", Verdana , sans-serif;
+  font-size-adjust: 0.48;
+  font-weight: normal;
+  font-style: normal;
+  color: #323232;
+  line-height: 1.55em;
+  -webkit-font-smoothing: antialiased; }
+
+@media screen and (min-width: 1200px) {
+  /* line 13, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+  html, body {
+    font-size: 130%; } }
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  /* line 18, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+  html, body {
+    font-size: 125%; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* line 23, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+  html, body {
+    font-size: 112%; } }
+@media screen and (max-width: 480px) {
+  /* line 28, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+  html, body {
+    font-size: 100%; } }
+/* line 34, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+h1, h2, h3, h4 {
+  font-family: "FS Albert Web ExtraBold", Verdana, sans-serif;
+  color: black;
+  letter-spacing: -0.05em;
+  line-height: 1em; }
+
+/* line 40, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+.master-headline {
+  font-size: 3.3em;
+  font-family: "FS Albert Web Light", Verdana, sans-serif;
+  color: white; }
+
+/* line 48, /Users/paulwoods/Sites/creativeset/source/css/partials/_typography.scss */
+.micro-copy {
+  font-size: 0.75em;
+  line-height: 1.4em;
+  color: #9b9b9b; }
+
+/* line 20, /Users/paulwoods/Sites/creativeset/source/css/main.scss */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/* line 25, /Users/paulwoods/Sites/creativeset/source/css/main.scss */
+body {
+  /*background-color: #EFEFEF;*/ }
+
+@media screen and (min-width: 769px) {
+  /* line 30, /Users/paulwoods/Sites/creativeset/source/css/main.scss */
+  html, body {
+    margin: 0; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* line 36, /Users/paulwoods/Sites/creativeset/source/css/main.scss */
+  html, body {
+    margin: 0; } }
+@media screen and (max-width: 480px) {
+  /* line 42, /Users/paulwoods/Sites/creativeset/source/css/main.scss */
+  html, body {
+    margin: 0; } }
